@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li>Home</li>
+          <li>Courses</li>
+          <li>About</li>
+          <li>Follow</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sec-header">Lazy Loading of Images</section>
+      <section class="section-lazy">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia
+          voluptates repudiandae eaque dicta veniam magni ad sunt minus atque
+          rerum natus commodi blanditiis praesentium, reprehenderit incidunt!
+          Maiores, officia deserunt?
+        </div>
+        <div>
+          <img
+            class="lazy-img"
+            src="images/cat-small.jpg"
+            data-src="images/cat.jpg"
+          />
+        </div>
+      </section>
+      <section class="section-lazy">
+        <div>
+          <img
+            class="lazy-img"
+            src="images/swan-small.jpg"
+            data-src="images/swan.jpg"
+          />
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia
+          voluptates repudiandae eaque dicta veniam magni ad sunt minus atque
+          rerum natus commodi blanditiis praesentium, reprehenderit incidunt!
+          Maiores, officia deserunt?
+        </div>
+      </section>
+      <section class="section-lazy">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia
+          voluptates repudiandae eaque dicta veniam magni ad sunt minus atque
+          rerum natus commodi blanditiis praesentium, reprehenderit incidunt!
+          Maiores, officia deserunt?
+        </div>
+        <div>
+          <img
+            class="lazy-img"
+            src="images/listen-small.jpg"
+            data-src="images/listen.jpg"
+          />
+        </div>
+      </section>
+      <section class="section-lazy">
+        <div>
+          <img
+            class="lazy-img"
+            src="images/understand-small.jpg"
+            data-src="images/understand.jpg"
+          />
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia
+          voluptates repudiandae eaque dicta veniam magni ad sunt minus atque
+          rerum natus commodi blanditiis praesentium, reprehenderit incidunt!
+          Maiores, officia deserunt?
+        </div>
+      </section>
+      <section class="section-lazy">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia
+          voluptates repudiandae eaque dicta veniam magni ad sunt minus atque
+          rerum natus commodi blanditiis praesentium, reprehenderit incidunt!
+          Maiores, officia deserunt?
+        </div>
+        <div>
+          <img
+            class="lazy-img"
+            src="images/implement-small.jpg"
+            data-src="images/implement.jpg"
+          />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

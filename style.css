@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background: #f3f3f3;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #233136;
+  border-bottom: 1px solid #a08b8b30;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  box-shadow: 0px 0px 13px 1px #186fbd;
+}
+.navigation li {
+  list-style: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.navigation li:last-child {
+  background: red;
+  color: #fff !important;
+}
+.navigation li:hover {
+  background: gray;
+}
+.section-lazy,
+#sec-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+#sec-header {
+  height: 70vh;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* background: url(images/cwt.png);
+    background-position: center;
+    background-size: cover; */
+  padding: 10px;
+}
+.section-lazy > div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 35px;
+  letter-spacing: 1px;
+  height: 400px;
+}
+.nav-background {
+  background: #fff;
+  border-bottom: 1px solid #80808005;
+  color: #171817fc;
+  box-shadow: 0px 0px 10px #80808061;
+}
+.nav-background li:hover {
+  color: #fff;
+  transform: skew(-10deg);
+}
+img {
+  height: 100%;
+  width: 100%;
+  transition: filter 0.5s;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px #d3c4c4;
+}
+
+.lazy-img {
+  filter: blur(10px);
+}
